@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{ font-family: 'Bebas Neue', cursive; }
+
+
+*{ margin: 0; padding: 0; }
+
+h2{color: #ffffff;}
+h3{ color: #ffffff; }
+h4{	color:  #ffffff; }
+
+
+main{ 
+	width: 960px;
+	height: 660px;
+	background-color: #6ab04c;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+header{
+	width: 960px;
+	height: 77px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #1F0909;
+}
+
+#contenedor_logo{
+	padding-left: 5px;
+	height: 77px;
+	width: 200px;
+	background-color: #1F0909;
+	align-content: center;
+	float: left;
+
+}
+
+
+nav{width: 374px;
+	height: 36px;
+	background-color: #1F0909;
+	float: right;
+	margin-top: 25px;
+	text-align: right;
+	padding-right: 25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:20px;
+    } 
+    nav li{
+    display:inline-block;
+    width:20%;
+    padding:5px 10px;
+    background-color:#46392D;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+
+
+
+
+
+section{
+	width: 960px;
+	height: 540px;
+	background-image: url(../img/fondo_concurso.jpg)
+
+}
+
+
+
+/* Este article es de la section del index*/
+
+#article1 {width: 480px;
+	height: 540px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: right;
+	text-align: center;
+	border-image-width: 20px;
+	background-color: ;
+}
+
+
+/* CSS de formulario */
+
+form{
+	width: 390px;
+	background-color: #1F0909;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-width:1px ;
+	border-style: solid;
+	border-color: #312B20;
+}
+
+.cajas{
+width: 100%;
+color: #1F0909;
+}
+
+.boton{
+width: 25%;
+height: 30px;
+color: #ffffff;
+background-color: #312B20;
+margin-top: 10px;
+margin-right: 5px;
+font-size: 15px;
+font-family: 'Bebas Neue', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+		width: 960px;
+	height: 44px;
+	background-color: #312B20;
+
+}
+
+
+#logos{ 
+	padding-left: 5px;
+	padding-top: 7px;
+	text-align: left;
+	background-color: #312B20;
+	height: 37px;
+	width: 290px;
+	float: left;
+
+}
+
+#nombre{
+		background-color: #312B20;
+		float: left;
+		height: 31px;
+		width: 245px;
+		text-align: left;
+		padding-left: 140px;
+		padding-top: 13px;
+}
+
+
+#redes{	
+		padding-left: 8px;
+		background-color: #312B20;
+		float: left;
+		height: 44px;
+		width: 260px;
+		text-align: right;
+
+}
+
+
